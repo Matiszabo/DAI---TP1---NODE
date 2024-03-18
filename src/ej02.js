@@ -1,18 +1,16 @@
-// Importar constantes y funciones desde el módulo matematica.js
-import { PI, sumar, multiplicar, strings } from './src/modules/matematica.js';
+import { PI, sumar, multiplicar, strings } from './modules/matematica.js'
 
-// Ejemplo de uso
-let numero1 = 5;
-let numero2 = 10;
+let num1 = 5;
+let num2 = 10;
 let total;
 
 console.clear();
 console.log(`La constante PI vale '${PI}'`);
 
-total = sumar(numero1, numero2);
-console.log(`sumar(${numero1},${numero2}) = ${total}`);
+total = sumar(num1, num2);
+console.log(`La suma entre (${num1} y ${num2}) tiene de resultado ${total}`);
 
-let resultadoMultiplicacion = multiplicar(numero1, numero2);
-console.log(`multiplicar(${numero1},${numero2}) = ${resultadoMultiplicacion}`);
-
-console.log("Array de strings:", strings);
+let resultadoMultiplicacion = multiplicar(num1, num2);
+console.log(`La multiplicación entre (${num1} y ${num2}) tiene de resultado ${resultadoMultiplicacion}`);
+ 
+console.log("Array de strings:", strings); 
