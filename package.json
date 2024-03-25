@@ -12,8 +12,11 @@
     "ej04": "node src/ej04.js",
     "ej05": "node src/ej05.js",
     "ej06": "node src/ej06.js",
-    "ej07": "node src/ej07.js" 
-  },  
+    "ej07": "node src/ej07.js"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "currency-map-country": "^1.0.12"
+  }
 }
