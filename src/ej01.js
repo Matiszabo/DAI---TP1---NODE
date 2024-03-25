@@ -8,6 +8,6 @@ console.log(`TextodeSalida:"${textoSalida}"`);
 
 function concatInvert(textoEntrada01, textoEntrada02) {
     let concat = textoEntrada01 + textoEntrada02;
-    let textoSalida = concat.split('').reverse().join('');
+    let textoSalida = concat.split('').reverse().join(''); //separa los caracteres, los da vuelta, los junta
     return textoSalida;
 }

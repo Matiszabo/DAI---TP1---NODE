@@ -3,8 +3,9 @@ const ARCHIVO_ENTRADA ="./archivo-entrada.txt";
 const ARCHIVO_SALIDA ="./archivo-salida.txt"; 
 console.clear(); 
 copiar(ARCHIVO_ENTRADA,ARCHIVO_SALIDA); 
+
 function copiar(origen,destino){ 
-    fs.readFile(origen, 'utf8', (err, data) => {
+    fs.readFileSync(origen, 'utf8', (err, data) => {
         if (err) {
             console.error("Error al leer el archivo de entrada:", err);
             return;

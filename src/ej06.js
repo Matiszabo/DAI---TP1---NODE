@@ -8,6 +8,8 @@ console.log(miObjeto);
 miUrl = 'esto-no-es-una-url-valida';
 miObjeto = parsearUrl(miUrl);
 console.log(miObjeto);
+
+
 function parsearUrl(miUrl) {
     try {
         const parsedUrl = new URL(miUrl);
